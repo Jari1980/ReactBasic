@@ -6,6 +6,7 @@ import { App2 } from './App2.jsx'
 import UsingProps from './UsingProps.jsx'
 import TableComp from './TableComp.jsx'
 import 'bootstrap/dist/css/bootstrap.css'
+import TaskList from './TaskList.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -14,5 +15,6 @@ createRoot(document.getElementById('root')).render(
     <App2 />
     <UsingProps />
     <TableComp />
+    <TaskList />
   </StrictMode>,
 )
